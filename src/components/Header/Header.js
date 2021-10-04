@@ -13,14 +13,15 @@ const Header = () => {
         <div>
             <Navbar  bg="dark" variant="light">
                 <Container>
+                    <h2 className="text-white">TS POINT</h2>
                     
-                    {/* <Navbar.Brand  href="/home">TS POINT</Navbar.Brand> */}
                     <Nav className="mx-auto navbar">
+
                         <Stack direction="horizontal" gap={5}>
-                            <NavLink className="Nav-item" activeStyle={activeStyle}  to="/home">Home</NavLink>
-                            <NavLink className="Nav-item"  activeStyle={activeStyle}  to="/about">About</NavLink>
+                            <NavLink className="Nav-item " activeStyle={activeStyle}  to="/home">Home</NavLink>
                             <NavLink className="Nav-item"  activeStyle={activeStyle}  to="/services">Services</NavLink>
                             <NavLink className="Nav-item"  activeStyle={activeStyle}  to="/events">Events</NavLink>
+                            <NavLink className="Nav-item"  activeStyle={activeStyle}  to="/about">About</NavLink>
                         </Stack>
                     </Nav>
                 </Container>

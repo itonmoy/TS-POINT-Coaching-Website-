@@ -1,8 +1,17 @@
-# Getting Started with Create React App
+# TS POINT (Coaching Website)
+live site link : https://ts-point.netlify.app/
+
+## The Key features 
+- You can choose the prefered subject of yours 
+- there is plenty of courses in service area 
+- Choose your course and connect with via contact on info given in website
+
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 

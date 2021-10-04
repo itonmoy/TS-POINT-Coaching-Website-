@@ -1,11 +1,10 @@
-import './App.css';
-import {BrowserRouter as Router,Switch,Route,}from "react-router-dom";
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Services from './components/Services/Services';
-import Events from './components/Events/Events';
-import Notfound from './components/NotFound/Notfound';
-
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Services from "./components/Services/Services";
+import Events from "./components/Events/Events";
+import Notfound from "./components/NotFound/Notfound";
 
 function App() {
   return (
@@ -18,9 +17,6 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
           <Route path="/services">
             <Services></Services>
           </Route>
@@ -29,6 +25,9 @@ function App() {
           </Route>
           <Route path="/events">
             <Events></Events>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route path="*">
             <Notfound></Notfound>
